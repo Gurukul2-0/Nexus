@@ -3,14 +3,44 @@
 <head>
     <meta name="viewport" content="width=device-width",initial-scale=1.0">
     <meta charset="utf-8">
-    <title>courses</title>
-    <link rel="stylesheet" href="courses.css">
+    <title>Gurukul</title>
+    <link rel="icon" href="images/launcher.png" type="image/png" alt="logo">
+    <link rel="stylesheet" href="css/courses.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+    <header class="header">
+        <button class="header__button" id="btnNav" type="button">
+            <i class="material-icons">menu</i>
+        </button>
+        
+    </header>
+    <nav class="nav">
+        <div class="nav__links">
+            <a href="#" class="nav__link">
+                <i class="material-icons">dashboard</i>
+                Subjects
+            </a>
+            <a class="nav__link nav__link" href="settings.html">
+                <i class="material-icons">settings</i>
+                Settings
+            </a>
+            <a class="nav__link" href="login.html">
+                <i class="material-icons">logout</i>
+                Log Out
+            </a>
+            
+        </div>
+        <div class="nav__overlay"></div>
+    </nav> 
     <div class="container">
         <div class="card">
             <div class="imgBx">
-                <img src="mal.png">
+                <img src="images/mal.png">
             </div>
             <div class="content">
                 <h2>Machine Learning</h2>
@@ -19,7 +49,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="full.jpg">
+                <img src="images/full.jpg">
             </div>
             <div class="content">
                 <h2>Full Stack developer</h2>
@@ -28,7 +58,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="chef.jpg">
+                <img src="images/chef.jpg">
             </div>
             <div class="content">
                 <h2>Chef</h2>
@@ -37,7 +67,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="phot.jpg">
+                <img src="images/phot.jpg">
             </div>
             <div class="content">
                 <h2>Photographer</h2>
@@ -46,7 +76,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="make.jpg">
+                <img src="images/make.jpg">
             </div>
             <div class="content">
                 <h2>Makeup Artist</h2>
@@ -55,7 +85,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="tech.jpg">
+                <img src="images/tech.jpg">
             </div>
             <div class="content">
                 <h2>Lecturer</h2>
@@ -65,4 +95,5 @@
         
     </div>
 </body>
+<script type="text/javascript" src="js/bav.js"></script>
 </html>
